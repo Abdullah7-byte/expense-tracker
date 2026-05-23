@@ -1,34 +1,22 @@
-# Expense Tracker
+# Weather App
 
-Simple expense tracker built with React.
+A React app that shows real-time weather data for any city.
 
 ## Features
-
-* Add expenses
-* Delete expenses
-* Show total amount
+- Search weather by city name
+- Shows temperature and weather condition
+- Live data from OpenWeatherMap API
 
 ## Tech Stack
-
-* React
-* CSS
-
-## Concepts Used
-
-* useState
-* Components
-* Props
-* map()
-* filter()
-* reduce()
-
-## Run Locally
-
-```bash id="2w9r1p"
-npm install
-npm run dev
-```
+- React
+- Vite
+- OpenWeatherMap API
 
 ## Live Demo
+https://weather-app-two-delta-53.vercel.app/
 
-https://expense-tracker-bay-eta-50.vercel.app/
+## Run Locally
+git clone https://github.com/Abdullah7-byte/Weather-App.git
+cd weather-app
+npm install
+npm run dev
